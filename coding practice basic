@@ -1,0 +1,7 @@
+a, b, c = input("enter no. ").split(',')
+print(a)
+print('before type : ', type(a))
+a = int(a)
+print('after type : ', type(a))
+print(b)
+print(c)
